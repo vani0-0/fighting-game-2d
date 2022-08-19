@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    
+    <title>Fighting 2d</title>
+
+    <link rel="stylesheet" href="/Styles/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="top-layer">
+        <div class="player"> 
+          <div class="health" ></div>
+          <div id="playerHealth" class="playerhealth"></div>
+        </div>
+        <div id="timer" class="timer"></div>
+        <div class="enemy">
+          <div class="health"></div>
+          <div id="enemyHealth" class="healthbar"></div>
+        </div>
+      </div>
+      <div id="result" class="result"></div>
+      <canvas class="game"></canvas>
+    </div>
+    
+    <script 
+    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" 
+    integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer">
+  </script>
+  <script src="/Javascript/utils.js"></script>
+  <script src="/Javascript/class.js"></script>
+  <script src="/Javascript/index.js"></script>
+  </body>
+</html>

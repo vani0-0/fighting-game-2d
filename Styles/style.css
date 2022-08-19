@@ -1,0 +1,83 @@
+boady {
+  margin: 0; 
+ }
+ div {
+  font-family: 'Press Start 2P', cursive; 
+ }
+ .container {
+  position: relative; 
+  display: inline-block;
+ }
+ 
+ .top-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px; 
+  display: flex;
+  align-items: center;
+  background: black;
+  padding: 0 10px;
+ }
+ 
+ .player,
+ .enemy { 
+  position: relative;
+  width: 100%;
+  height: 70%; 
+  border: 1px solid white;
+  
+ }
+ .player {
+  display: flex ;
+  justify-content: flex-end;
+ }
+ 
+ .healthbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #818cf8;
+ }
+ 
+ .playerhealth {
+  position: absolute;
+  top: 0; 
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  background: #818cf8;
+ }
+ 
+ .health { 
+  background: rgb(80, 0, 0); 
+  width: 100%;
+  height: 100%;
+ }
+ 
+ .timer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  color: white;
+  background: rgb(10, 10, 10);
+  width: 50px;
+  height: 50px; 
+  border-radius: 100%;
+ }
+ 
+ .result {
+  position: absolute;
+  color: white; 
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: none;
+ }
